@@ -1,0 +1,24 @@
+:root{
+    --white-color: white;
+    --black-color: #000000;
+    --darkPurple-color: #41415b;
+    --mediumPurple-color:#5a4c59;
+    --medium-color:#8b7e75;
+    --cream-color:#e7dfdb;
+    --gold-color:#b78838;
+    --fontFamily: 'Poppins';
+  
+  }
+
+.container{
+    margin-top: 145px;
+    margin-bottom: 80px;
+  }
+
+.container #title{
+    color:var(--mediumPurple-color);
+    font-size: 55px;
+    font-weight: bold;
+}
+
+

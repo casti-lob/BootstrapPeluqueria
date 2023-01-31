@@ -1,0 +1,46 @@
+
+:root{
+    --white-color: white;
+    --black-color: #000000;
+    --darkPurple-color: #41415b;
+    --mediumPurple-color:#5a4c59;
+    --medium-color:#8b7e75;
+    --cream-color:#e7dfdb;
+    --gold-color:#b78838;
+    --fontFamily: 'Poppins';
+  
+  }
+
+ 
+/*Container */
+
+.container img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover ;
+}
+
+.container{
+  margin-top: 145px;
+  margin-bottom: 80px;
+}
+
+.modal-content{
+  background-color: var(--cream-color);
+}
+.modal-footer #reserv{
+  background-color: var(--gold-color);
+}
+.modal-footer #close{
+  background-color: var(--medium-color);
+}
+#dow{
+  text-align: center;
+  margin-top: 50px;
+}
+ #dow #salon{
+  height: 90% ;
+ }
+
+
+ 
