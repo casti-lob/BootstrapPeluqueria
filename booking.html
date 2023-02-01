@@ -110,6 +110,7 @@
             </fieldset>
 
             <fieldset>
+              <div class="col-sm-8">
                 <legend class="mb-3">Tratamientos</legend>
                   <select  class="form-select checkbox-selectbox mb-3">
                     <option selected >Cabello Styling</option>
@@ -156,18 +157,42 @@
                         <option value="0">Pedicura básica</option>
                         <option value="1">Tratamiento de parafina</option>
                   </select>
+                  </div>
             </fieldset>
 
             <fieldset>
                 <legend class="mb-3">Horarios</legend>
+                <div class="col-sm-8">
                 <select  class="form-select checkbox-selectbox mb-3">
-                    <option selected >Profesional*</option>
-                        <option value="0">Chisela</option>
-                        <option value="1">José Antonio</option>
-                        <option value="2">Nadia</option>
-                        <option value="3">Román</option>
-                        <option value="4">Sandra</option>
-                  </select>
+                  <option selected >Profesional*</option>
+                      <option value="0">Chisela</option>
+                      <option value="1">José Antonio</option>
+                      <option value="2">Nadia</option>
+                      <option value="3">Román</option>
+                      <option value="4">Sandra</option>
+                </select>
+                </div>
+                <div class="mb-3 row">
+                  <label for="staticDate" class="col-sm-2 col-form-label">Fecha*</label>
+                  <div class="col-sm-6">
+                    <input required placeholder="Introduce tu nombre" type="date" class="form-control" id="inputDate">
+                  </div>
+                </div>
+                <div class="mb-3 row">
+                  <label for="staticTime" class="col-sm-2 col-form-label">Hora*</label>
+                  <div class="col-sm-6">
+                    <input required placeholder="Introduce tu nombre" type="time" class="form-control" id="inputTime">
+                  </div>
+                </div>
+                
+            </fieldset>
+
+            <fieldset>
+              <legend class="mb-3">Comentarios</legend>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Comentarios (opcional)</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
             </fieldset>
             
         </form>
