@@ -10,6 +10,9 @@
   
   }
 
+  .container-fluid a.selected {
+    color: var(--gold-color) !important;
+  }
 .container{
     margin-top: 145px;
     margin-bottom: 80px;
@@ -22,4 +25,7 @@
     font-weight: bold;
 }
 
-
+button{
+  color: var(--white-color) !important;
+  
+}
