@@ -59,20 +59,4 @@ figure:hover > figcaption {
   display:block;
   transition: all .5s;
 }
-#buttonImg{
-  background-color: #b78838;
-  border: none;
-    
-    border-radius: 5px;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 35px;
-    
-    position: absolute;
-    opacity: 0.8;
-    top: 30%;
-    left: 50%;
-    transform:translate(-50%,-50%);
-}
+
