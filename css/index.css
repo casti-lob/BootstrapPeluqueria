@@ -60,3 +60,6 @@ figure:hover > figcaption {
   transition: all .5s;
 }
 
+.custom-tooltip {
+  --bs-tooltip-bg: var(--gold-color);
+}
