@@ -1,3 +1,16 @@
+
+:root{
+    --white-color: white;
+    --black-color: #000000;
+    --darkPurple-color: #41415b;
+    --mediumPurple-color:#5a4c59;
+    --medium-color:#8b7e75;
+    --cream-color:#e7dfdb;
+    --gold-color:#b78838;
+    --fontFamily: 'Poppins';
+  
+  }
+
 .container{
     margin-top: 180px;
     margin-bottom: 80px;
@@ -12,9 +25,16 @@
     -webkit-backface-visibility:hidden;
 }
 .colorST{
-    color: #b78838 !important;
+    color: var(--gold-color) !important;
     text-align: center;
     font-size: 25px;
+    font-weight: 900;
+
+}
+.modal-content{
+    margin-top: 20px;
+    background-color: var(--darkPurple-color) !important;
+    
 }
 
 .row{
@@ -23,11 +43,11 @@
 }
 
 .imgAmp{
+    
     display:block;
     margin:auto;
-    width: 70%;
+    width: 50%;
 }
-
-.closed{
-    background-color: red;
+.btn-close{
+   background-color: var(--cream-color);
 }
