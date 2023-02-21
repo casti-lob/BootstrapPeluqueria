@@ -63,3 +63,6 @@ figure:hover > figcaption {
 .custom-tooltip {
   --bs-tooltip-bg: var(--gold-color);
 }
+.btn-close{
+  background-color: var(--cream-color);
+}

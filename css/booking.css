@@ -29,3 +29,7 @@ button{
   color: var(--white-color) !important;
   
 }
+
+.btn-close{
+  background-color: var(--cream-color);
+}
