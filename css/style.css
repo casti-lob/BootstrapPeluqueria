@@ -60,3 +60,7 @@
 .offcanvas-body li .nav-link:hover, .offcanvas-body li .nav-link:focus{
   color: var(--white-color);
 }
+
+#social{
+  color: #000;
+}
