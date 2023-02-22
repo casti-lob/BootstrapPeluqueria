@@ -29,10 +29,12 @@
   background-color: var(--cream-color);
 }
 .modal-footer #reserv{
-  background-color: var(--gold-color);
+  background-color: var(--darkPurple-color);
+  font-weight: 900; 
 }
 .modal-footer #close{
-  background-color: var(--medium-color);
+  background-color: var(--mediumPurple-color);
+  font-weight: 900; 
 }
 #dow{
   text-align: center;
